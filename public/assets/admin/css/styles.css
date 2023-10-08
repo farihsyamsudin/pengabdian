@@ -684,6 +684,10 @@ progress {
   margin-top: var(--bs-gutter-y);
 }
 
+.justify-between{
+  justify-content: space-between;
+}
+
 .col {
   flex: 1 0 0%;
 }
@@ -1229,8 +1233,19 @@ progress {
   .gy-md-5 {
     --bs-gutter-y: 3rem;
   }
+
+  .md\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
 }
 @media (min-width: 992px) {
+
+  .lg\:flex {
+    display: flex;
+  }
+
   .col-lg {
     flex: 1 0 0%;
   }
